@@ -1,0 +1,16 @@
+ajaxe-app/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── login.component.ts      # Login form
+│   │   │   ├── navbar.component.ts     # Nav bar with dynamic links
+│   │   │   ├── profile.component.ts    # Shows user info
+│   │   │   └── register.component.ts   # Registration form
+│   │   ├── services/
+│   │   │   └── user.service.ts         # In-memory user storage
+│   │   ├── app.component.ts            # Root component
+│   │   ├── app.config.ts              # Routing provider config
+│   │   └── app.routes.ts              # Route definitions
+│   ├── main.ts
+│   ├── index.html
+│   └── styles.css                     # Global styles
